@@ -86,11 +86,11 @@
     arrowmouse {
       display-name = "ArrowMouse";
       bindings = <
-        &trans &trans &trans        &trans        &trans         &trans &trans                                           &mo 3 &trans &trans   &trans   &trans    &trans    &trans
-        &trans &trans &trans        &kp MOVE_UP   &trans         &trans  &none                                           &none &trans &trans   &kp UP   &trans    &kp RIGHT &trans
-        &trans &trans &kp MOVE_LEFT &kp MOVE_DOWN &kp MOVE_RIGHT &trans  &none        &trans &trans &trans &trans        &none &trans &kp LEFT &kp DOWN &kp RIGHT &trans    &trans
-        &trans &trans &trans        &kp DOWN      &kp UP         &trans                      &trans &trans                     &trans &trans   &trans   &trans    &trans    &trans
-        &trans &trans &trans        &trans        &trans                     &kp LCLK &kp RCLK &trans &trans &trans &trans            &trans   &trans   &trans    &trans    &trans
+        &trans &trans &trans         &trans         &trans          &trans &trans                                           &mo 3 &trans &trans   &trans   &trans    &trans    &trans
+        &trans &trans &trans         &mmv MOVE_UP   &trans          &trans  &none                                           &none &trans &trans   &kp UP   &trans    &kp RIGHT &trans
+        &trans &trans &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans  &none        &trans &trans &trans &trans        &none &trans &kp LEFT &kp DOWN &kp RIGHT &trans    &trans
+        &trans &trans &trans         &kp DOWN       &kp UP          &trans                      &trans &trans                     &trans &trans   &trans   &trans    &trans    &trans
+        &trans &trans &trans         &trans         &trans                    &mkp LCLK &mkp RCLK &trans &trans &trans &trans            &trans   &trans   &trans    &trans    &trans
       >;
     };
     qwerty {
